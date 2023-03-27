@@ -162,6 +162,7 @@
   padding-bottom: 143px;
   background-image: url('../img/bg-characters.png');
   background-position: center center;
+  overflow: hidden;
   .description{
     display: flex;
     align-items: flex-start;
@@ -177,14 +178,15 @@
       display: flex;
       align-items: center;
       .text{
-        display: block;
-        max-width: 143px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 140%;
-        color: white;
-        margin-top: 22px;
-
+        span{
+          display: block;
+          max-width: 143px;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 140%;
+          color: white;
+          margin-top: 22px;
+        }
       }
     }
   }
