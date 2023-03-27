@@ -29,5 +29,19 @@ header{
         }
       }
     }
+    @media(max-width: 560px){
+      max-height: 70px;
+      .sony{
+        display: none;
+      }
+      .logo{
+        max-width: 140px;
+      }
+      .plataform{
+        span{
+          display: none;
+        }
+      }
+    }
   }
 }
